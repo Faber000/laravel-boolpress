@@ -3,9 +3,6 @@
         <h1>{{post.title}}</h1>
         <p>{{post.content}}</p>
         <p v-if="post.category">Categoria: {{post.category.name}}</p>
-        <div class="mt-5">
-            <router-link :to="{name: 'home'}">Home Page</router-link>
-        </div>
     </div>
 </template>
 

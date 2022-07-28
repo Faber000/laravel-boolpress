@@ -24,9 +24,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+
 .card {
     background-color: white;
-    border-radius: 10%;
     padding: 10px;
 }
 </style>
